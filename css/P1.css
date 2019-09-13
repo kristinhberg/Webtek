@@ -1,6 +1,6 @@
 html{
   font-family: Arial, sans-serif;
-  color: darkgrey;
+  color: #757575;
   background-color: whiteSmoke;
   height:100%;
 }
@@ -9,7 +9,7 @@ html{
   width: 100ch;
   margin:auto;
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 
 .forside{
