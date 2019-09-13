@@ -1,4 +1,4 @@
-html, body{
+body{
   width: 80ch;
   margin: auto;
   font-family: Arial, sans-serif;
@@ -11,6 +11,8 @@ html, body{
   margin-top: 3em;
 }
 
-img{
-  margin-top: 2em;
+img .fixed_header{
+  margin-left: 0!important;
+  width: 120%;
+  : center;
 }
