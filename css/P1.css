@@ -1,23 +1,23 @@
 html{
   font-family: Arial, sans-serif;
-  color: #222;
+  color: darkgrey;
   background-color: whiteSmoke;
   height:100%;
 }
 
 .body{
-  width: 80ch;
+  width: 100ch;
   margin:auto;
   position: relative;
   padding-bottom: 70px;
 }
 
 .forside{
-  background: url('../img/cefh.jpg')no-repeat;
+  background: url('../img/cefh_header.jpg')no-repeat;
   background-size: 100% 100%;
   width: 100%;
   display: inline-block;
-  height: 200px; /* you may also change this */
+  height: 280px;
 }
 
 footer{
