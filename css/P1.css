@@ -24,6 +24,8 @@ footer{
   margin-top: 3em;
 }
 
-img{
-  margin-top: 2em;
+img .fixed_header{
+  margin-left: 0!important;
+  width: 120%;
+  : center;
 }
