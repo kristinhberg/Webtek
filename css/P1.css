@@ -1,6 +1,4 @@
-body{
-  width: 80ch;
-  margin: auto;
+html{
   font-family: Arial, sans-serif;
   color: #222;
   background-color: whiteSmoke;
@@ -8,8 +6,18 @@ body{
 }
 
 .body{
+  width: 80ch;
+  margin:auto;
   position: relative;
   padding-bottom: 70px;
+}
+
+.forside{
+  background: url('../img/cefh.jpg')no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  display: inline-block;
+  height: 200px; /* you may also change this */
 }
 
 footer{
@@ -22,8 +30,4 @@ footer{
 .box{
   font-size: 18px;
   margin-top: 3em;
-}
-
-img{
-  margin-top: 2em;
 }
