@@ -1,1 +1,12 @@
-css filen
+html, body{
+  width: 80ch;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: floralwhite;
+}
+
+.box{
+  font-size: 18px;
+  margin-top: 3em;
+}
