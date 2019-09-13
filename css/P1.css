@@ -1,1 +1,35 @@
+<<<<<<< Updated upstream
 css filen
+=======
+body{
+  width: 80ch;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: floralwhite;
+  height: 100%;
+}
+
+.body{
+  padding-bottom:100px;
+  position: relative;
+}
+
+footer{
+  position: absolute;
+  font-family: Arial, sans-serif;
+  color: #222;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.box{
+  font-size: 18px;
+  margin-top: 3em;
+}
+
+img{
+  margin-top: 2em;
+}
+>>>>>>> Stashed changes
