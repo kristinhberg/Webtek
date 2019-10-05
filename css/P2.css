@@ -12,6 +12,14 @@ html,body{
   padding-bottom: 100px;
 }
 
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+
 .forside{
   background: url('../img/cefh_header.jpg')no-repeat;
   background-size: 100% 100%;
@@ -20,12 +28,6 @@ html,body{
   height: 280px;
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-}
 
 .box{
   font-size: 18px;
@@ -33,16 +35,13 @@ footer{
 }
 
 ul {
-  list-style-type: square;
-  font-size: 24px;
-  font-family: verdana, serif;
-  color: darkgrey;
+  list-style-type: circle;
 }
 
 .sublistparent {
-  list-style-type: none;
+  list-style-type: circle;
 }
 
-.sublist li:last-child{
-  font-style: italic;
+.sublist li{
+  list-style-type: disc;
 }
