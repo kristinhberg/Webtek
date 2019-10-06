@@ -1,9 +1,8 @@
 html,body{
   font-family: Arial, sans-serif;
-  color: #757575;
+  color: #4F4F4F;
   background-color: whiteSmoke;
   height:100%;
-  line-height: 1.5;
 }
 
 .body{
@@ -11,6 +10,13 @@ html,body{
   margin:auto;
   position: relative;
   padding-bottom: 100px;
+}
+
+
+.mockup{
+  width: 650px;
+  margin: 50px;
+  border: 2px solid darkgrey;
 }
 
 footer{
@@ -35,7 +41,6 @@ td, th {
 tr:nth-child(even) {
   background-color: #E8E8E8;
 }
-
 .java li{
   margin-bottom: 10px;
 }
@@ -64,10 +69,4 @@ ul {
 
 .sublist li{
   list-style-type: circle;
-}
-
-.mockup{
-  width: 650px;
-  margin: 50px;
-  border: 2px solid darkgrey;
 }
