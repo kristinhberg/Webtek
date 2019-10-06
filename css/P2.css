@@ -20,6 +20,10 @@ footer{
 }
 
 
+.java li{
+  margin-bottom: 10px;
+}
+
 .forside{
   background: url('../img/cefh_header.jpg')no-repeat;
   background-size: 100% 100%;
@@ -35,28 +39,13 @@ footer{
 }
 
 ul {
-  list-style-type: circle;
-}
-
-.sublistparent {
-  list-style-type: circle;
-}
-
-.sublist li{
   list-style-type: disc;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
+.sublistparent {
+  list-style-type: disc;
 }
 
-td, th {
-
-  text-align: left;
-  padding: 16px;
-}
-
-tr:nth-child(even) {
-  background-color: #E8E8E8;
+.sublist li{
+  list-style-type: circle;
 }
