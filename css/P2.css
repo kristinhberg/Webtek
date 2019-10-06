@@ -45,3 +45,18 @@ ul {
 .sublist li{
   list-style-type: disc;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #E8E8E8;
+}
