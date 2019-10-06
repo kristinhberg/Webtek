@@ -3,6 +3,7 @@ html,body{
   color: #757575;
   background-color: whiteSmoke;
   height:100%;
+  line-height: 1.5;
 }
 
 .body{
@@ -63,4 +64,10 @@ ul {
 
 .sublist li{
   list-style-type: circle;
+}
+
+.mockup{
+  width: 650px;
+  margin: 50px;
+  border: 2px solid darkgrey;
 }
