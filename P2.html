@@ -26,7 +26,7 @@
         <ul>
           <li>Client name: CEFH - Center for Fertility and Health</li>
           <li>Website name: CEFH.no</li>
-          <li>Contact person: Siri Eldevil Håberg</li>
+          <li>Contact person: Siri Eldevik Håberg</li>
         </ul>
     </div>
 
@@ -70,9 +70,58 @@
                   <p>
                     Through the use of Javascript, a number of functions will be added to the homepage. One function will enable horisontal scrolling on the news articles. Another will make the pictures appear one after another when first entering the page. The third will make it so that boxes also works as links. This will work when you hover over the box, scaling it up by approximately 10%.
                   </p>
-
+                <!-- About -->
                 <li>about.html</li>
+                  <img class="mockup" src="./img/about.jpg"/>
+                  <p>The about page will give information about what type of research that is
+                  being done at the Centre. Below the header is a short paragraph which states the
+                  centre´s scientific goal. Below there is detailed information about the research.
+                  Under this there is a list that sums up their research projects in five general themes.
+                  This list has a list-style-type of dots in the color #68C394. This is the same color
+                  that is repeated troughout the website in different features.
+                  Under the list of themes you can find a downloadable pdf of the annual report the Centre provides.
+                  The content mentioned above is confined within a box that is 1440x1049px big,
+                  in the same color as the boxes around the headers of each page, #F5F5F5.</p>
+                  <p>Under this box the user can find information about which data sources the centre uses in its research.
+                  These are different population-and health registries, and cohorts.
+                  Under each of these the different registries are listed, using the same list style as the previus list of themes.
+                  All of the lists on the about.html page are centered in the middle of the page.</p>
+
+                <!-- People -->
                 <li>people.html</li>
+                <img class="mockup" src="./img/people.jpg"/>
+                <p>The first page you arrive at is the overview of all people that work at the centre.
+                Below the header there is a brief paragraph about what type of people that are employed at the centre.
+                Below this paragraph there is a list of contents on the left side, that is 290x313px big.
+                This contains a grouping of the different type of employees. When you hover over each item of the contents list
+                the text will appear darker and on click the user will be scrolled down to chosen category of employees.
+                The contents list will be locked in position when scrolling further down the page so that
+                users at any time can manouver through the different categories which makes it easier for the user
+                to navigate, as this page contains a lot of images (aka a lot of scrolling).
+                </p>
+                <p>On the right side the categories are placed under each other, with pictures of the employees
+                  that are the size 164x218. Under each picture the name, title and phone number of the person is shown.
+                  On hover the pictures and info will scale up (using our javascript scale.js function)
+                  so that the user understands that it is clickable. On click you will be taken
+                  to each persons profilepage. In this course we will not have the capacity to make a profile page for
+                  each person as there are many people working at the centre, but we made an example of how the page can look for one person (our contact person).</p>
+
+                <img class="mockup" src="./img/profilside.jpg"/>
+                <p>Each person will have their own "profilepage" where more detailed informartion about them is published.
+                The header will consist of the name, their title and contact information on the left side, and their picutre
+                on the right side (size 264x390).</p>
+                <p>Under this there is a paragraph with background information; their education, spesialization
+                  and previous and current research areas.
+                </p>
+                <p>Under this there is a list of projects that the person has done and/or contributed in.
+                  These projects are links that take you to another page with further description (not made in this project).
+                  When you hover over each item in the list it will appear with an underline, so the user understands that it is clickable.
+                  The list also have the list-style-type dots in the same green color as before, #68C394.</p>
+                <p>After the list of projects there is a table of publications. These are divided into
+                three categories. When you click on each category it shows the publications within each category.
+                The two other categories will then appear in a lighter grey, #8d8d8d, to signify that they are not selected.
+                Inside the table the publications appear with all authors, title and name of journal.
+                The table is outlined with a thin white frame.</p>
 
                 <!-- Publications -->
                 <li>publications.html
@@ -115,15 +164,15 @@
     <h2>7. Minimum requirements</h2>
     <p>We plan to fulfil the minimum requirments of Javascript applications in this way:</p>
     <ul class="java">
-      <li> <i><b>1.domino.js:</b></i> Kristin will be in charge of implementing a Javascript function that will make the
+      <li> <b>1.<i>domino.js:</i></b> Kristin will be in charge of implementing a Javascript function that will make the
     pictures on the homepage and people page appear one after another when first entering the pages
     This will make the otherwise static page a bit more dynamic.</li>
-    <li><i><b>2.newsscrolling.js:</b></i> Emil will be in charge of implementing a Javascript funciton that will make the
+    <li><b>2.<i>newsscrolling.js:</i></b> Emil will be in charge of implementing a Javascript funciton that will make the
     news articles on the homepage scrollable horisontally. This is to allow the viewer to check out more news.</li>
-    <li><i><b>3.contentpointer.js:</b></i> Oda will be in charge of implementing a Javascript funtion that will appear on the people page and publications page
+    <li><b>3.<i>contentpointer.js:</i></b> Oda will be in charge of implementing a Javascript funtion that will appear on the people page and publications page
     that makes it possible for the viewer to skip directly down to parts of the content of the page. This is so that
     they do not have to scroll through all of the content if they quickly want to find something.</li>
-    <li><i><b>4.scale.js:</b></i> Kari will be in charge of implementing a Javascript funciton that appears on every page that there are boxes that also
+    <li><b>4.<i>scale.js:</i></b> Kari will be in charge of implementing a Javascript funciton that appears on every page that there are boxes that also
     works as links. This will work when you hover over the box, scaling it up by approximately 10%. This will signify to the user
     that this is a link. </li></ul>
 
@@ -168,6 +217,7 @@
             <li>homepage.css</li>
             <li>about.css</li>
             <li>people.css</li>
+            <li>profilepage.css</li>
             <li>publications.css</li>
             <li>events.css</li>
             <li>news.css</li>
@@ -277,8 +327,14 @@
           </tr>
           <tr>
             <td>people.css</td>
-            <td>The homepage</td>
+            <td>Styling for the people page</td>
             <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>profilepage.css</td>
+            <td>Styling for profile page</td>
+            <td>Rikke</td>
             <th>06.11.2019</th>
           </tr>
           <tr>
