@@ -17,6 +17,7 @@ html,body{
   width: 650px;
   margin: 50px;
   border: 2px solid darkgrey;
+  display: block;
 }
 
 footer{
