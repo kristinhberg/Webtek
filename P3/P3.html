@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/P2.css">
+  <Title>P2: Project Design</Title>
+</head>
+
+<body>
+  <div class="body">
+    <h1>P2 Design Guidelines</h1>
+
+<!-- Document Details -->
+
+    <div class="box">
+      <h2>1. Document Details</h2>
+        <ul>
+          <li>P2 Design Guidelines</li>
+          <li>Kristin, Emil, Oda, Kari, Rikke</li>
+          <li>IT2805 8 October 2019</li>
+        </ul>
+    </div>
+
+<!-- Administrative Details -->
+
+    <div class="box">
+      <h2>2. Administrative Details</h2>
+        <ul>
+          <li>Client name: CEFH - Center for Fertility and Health</li>
+          <li>Website name: CEFH.no</li>
+          <li>Contact person: Siri Eldevik Håberg, Deputy Director </li>
+
+        </ul>
+    </div>
+
+<!-- Purpose, goals and audience -->
+
+    <div class="box">
+      <h2>3. Purpose, goals and audience</h2>
+        <p>
+          The website is supposed to work as a platform for CEFH, where they can make their projects, employees, upcoming events and research articles available to other researchers. Our goal is to present this in a suitable manner, so that they can continue gaining money from sponsors and recognition from fellow researchers. The websites main audience is reserchears, as well as potential sponsors.
+        </p>
+    </div>
+
+<!-- Navigation Structure -->
+
+    <div class="box">
+      <h2>4. Navigation Structure</h2>
+        <p>
+          CEFH’s website has a navigation structure based on the hierarchy model. Every site of the website will be reachable at any time, thanks to a menu bar that will be present on every site. In addition, some of the sites will link to each other, shown specifically in Figure 1.  
+        </p>
+        <p>
+          We want to make a flexible website that makes all the content easy accessible. That is why we include a global menu bar. To make a website that feels natural and has a good flow, we also include some links between the different pages.
+        </p>
+        <img alt="Figure 1: Navigation structure of website." src="img/STORYBOARD.jpg" width="800"/>
+    </div>
+
+<!-- Page Layout and Appearance -->
+
+    <div class="box">
+      <h2>5. Page Layout and Appearance</h2>
+        <p>
+          One of the main design goals is to create a comprehensive site with a professional and scientific look. In order to achieve this we focused on making the components of the site universal in order to achieve continuity throughout the whole site. Another goal was to make the site easy to understand, with a simple conceptual model and navigation structure. The navigation bar at the top of each page provides easy access to the other pages on the site, making both the navigation and site structure easy to understand. It also provides a site-wide search-box, should the user wish to find something specific immediately. The logo on the left side also functions as a home button, taking the user back to the landing page. There will also be a banner at the bottom of each page, containing simple contact information, with the “contact”-title also functioning as a button to the main contact page.
+        </p>
+        <p> The specific site-wide styling is listed below: </p>
+        Fonts
+          <ul id="Fonts">
+            <li class="sublistparent">Header
+                <ul class="sublist">
+                    <li>Crimson text, regular, 64pt</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Sub-header 1
+              <ul class="sublist">
+                  <li>Futura, medium, 36pt </li>
+              </ul>
+            </li>
+            <li class="sublistparent">Sub-header 2
+                <ul class="sublist">
+                    <li>Futura, medium, 24pt, letter spacing 10%</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Body text 1
+                <ul class="sublist">
+                    <li>Futura, medium, 16pt</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Body text 2
+                <ul class="sublist">
+                    <li>Futura, medium, 14pt</li>
+                </ul>
+            </li>
+          </ul>
+
+          Color-scheme
+          <ul id="Color-scheme">
+            <li class="sublistparent">Text
+                <ul class="sublist">
+                    <li>Dark grey rgb(79,79,79)</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Background
+              <ul class="sublist">
+                  <li> White grey rgb(245,245,245)</li>
+              </ul>
+            </li>
+            <li class="sublistparent">Boxes
+                <ul class="sublist">
+                    <li>Light grey rgb(232,232,232)</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Links
+                <ul class="sublist">
+                    <li>When hovering a link, there will appear an underlinde - indicating that the link is clickable, as well as changing colour to green (rgb(104, 195, 148)) when hovering the link.</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Underlines - symbols etc
+                <ul class="sublist">
+                    <li>Green rgb(104, 195, 148)</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Margins:
+                <ul class="sublist">
+                    <li>200px right and left</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Navigations bar
+                <ul class="sublist">
+                    <li>Will be located at the top of the page. When hovering a link, a line will appear under the link indicating that it is clickable, with a similar line underlining the active page.</li>
+                </ul>
+            </li>
+            <li class="sublistparent">Footer
+                <ul class="sublist">
+                    <li>Will be located at the bottom of each page, containing contact information</li>
+                </ul>
+            </li>
+          </ul>
+
+        <p> These design desicions are based on our focus on keeping the site proffesional and readable.
+            We have chosen subdued colors for background and other elements. This will keep it clean, but not too boring with just black and white.
+            We believe that the website will be proffesional, and the people visiting it will be used to this type of design and layout, which
+            makes it easy for them to navigate themselves around the site.</p>
+
+        <img class="mockup" src="img/appearance.jpg" alt="appearance"/>
+    </div>
+<!-- Content -->
+    <div class="box">
+              <h2> 6. Content </h2>
+              <ol>
+
+                <!-- Homepage -->
+                <li>homepage.html
+                  <img class="mockup" alt="Homepage mockup" src="./img/Homepage.jpg"/>
+                  <p>
+                    The first thing to appear when visiting the website is the homepage. This page will include a menubar, the CeFH-logo with some additional information, news, recently published articles, upcoming events and the footer.
+                  </p>
+                  <p>
+                    This page will give the user an oversight of who CeHF is and what they do. More detailed information is easily accessible, either by using the menubar, or through links from the other content further down the page. Whitespace has been important for us to include, as it makes the information easier to process for the user. To organize the content, we chose to use two different background colors. A stronger color on graphical elements was included to make the page more vibrant.
+                  </p>
+                  <p>
+                    Through the use of Javascript, a number of functions will be added to the homepage. One function will enable horisontal scrolling on the news articles. Another will make the pictures appear one after another when first entering the page. The third will make it so that boxes also works as links. This will work when you hover over the box, scaling it up by approximately 10%.
+                  </p></li>
+
+                <!-- About -->
+                <li>about.html
+                  <img class="mockup" alt="About mockup" src="./img/about.jpg"/>
+                  <p>The about page will give information about what type of research that is
+                  being done at the Centre. Below the header is a short paragraph which states the
+                  centre´s scientific goal. Below there is detailed information about the research.
+                  Under this there is a list that sums up their research projects in five general themes.
+                  This list has a list-style-type of dots in the color #68C394. This is the same color
+                  that is repeated troughout the website in different features.
+                  Under the list of themes you can find a downloadable pdf of the annual report the Centre provides.
+                  The content mentioned above is confined within a box that is 1440x1049px big,
+                  in the same color as the boxes around the headers of each page, #F5F5F5.</p>
+                  <p>Under this box the user can find information about which data sources the centre uses in its research.
+                  These are different population-and health registries, and cohorts.
+                  Under each of these the different registries are listed, using the same list style as the previus list of themes.
+                  All of the lists on the about.html page are centered in the middle of the page.</p></li>
+
+                <!-- People -->
+                <li>people.html
+                <img class="mockup" alt="People mockup" src="./img/people.jpg"/>
+                <p>The first page you arrive at is the overview of all people that work at the centre.
+                Below the header there is a brief paragraph about what type of people that are employed at the centre.
+                Below this paragraph there is a list of contents on the left side, that is 290x313px big.
+                This contains a grouping of the different type of employees. When you hover over each item of the contents list
+                the text will appear darker and on click the user will be scrolled down to chosen category of employees.
+                The contents list will be locked in position when scrolling further down the page so that
+                users at any time can manouver through the different categories which makes it easier for the user
+                to navigate, as this page contains a lot of images (aka a lot of scrolling).
+                </p>
+                <p>On the right side the categories are placed under each other, with pictures of the employees
+                  that are the size 164x218. Under each picture the name, title and phone number of the person is shown.
+                  On hover the pictures and info will scale up
+                  so that the user understands that it is clickable. On click you will be taken
+                  to each persons profilepage. In this course we will not have the capacity to make a profile page for
+                  each person as there are many people working at the centre, but we made an example of how the page can look for one person (our contact person).</p>
+
+                <img class="mockup" alt="Profile mockup" src="./img/profilside.jpg"/>
+                <p>Each person will have their own "profilepage" where more detailed informartion about them is published.
+                The header will consist of the name, their title and contact information on the left side, and their picutre
+                on the right side (size 264x390).</p>
+                <p>Under this there is a paragraph with background information; their education, spesialization
+                  and previous and current research areas.
+                </p>
+                <p>Under this there is a list of projects that the person has done and/or contributed in.
+                  These projects are links that take you to another page with further description (not made in this project).
+                  When you hover over each item in the list it will appear with an underline, so the user understands that it is clickable.
+                  The list also have the list-style-type dots in the same green color as before, #68C394.</p>
+                <p>After the list of projects there is a table of publications. These are divided into
+                three categories. When you click on each category it shows the publications within each category.
+                The two other categories will then appear in a lighter grey, #8d8d8d, to signify that they are not selected.
+                Inside the table the publications appear with all authors, title and name of journal.
+                The table is outlined with a thin white frame.</p></li>
+
+                <!-- Publications -->
+                <li>publications.html
+                  <img class="mockup" alt="Publications mockup" src="./img/publications.jpg"/>
+                  <p>
+                    This page will contain a complete list
+                    of all the publications from CEFH since it first
+                    started in 2017. Right below the header there
+                    is a dedicated search bar for searching through publications
+                    only, this will give users easy access if they are looking
+                    for specific content. Below the search bar there is a link to the "people"
+                    page, if users wants to se publications from a specific person.
+                  </p>
+                  <p>
+                    The publications are presented on the right
+                    side of the page as a list of boxes including title, authors and date.
+                    They are sorted chronolgically.
+                    If you hover a box it will scale up by a little
+                    to indicate that it can be pressed. On click you will be taken
+                    to an external publishing site.
+                  </p>
+                  <p>
+                    On the left side of the page there is a contents menu that includes the years 2019-2017
+                    for easy access to the desired year of publication. On hover the text will appear darker and
+                    on click the user wil be scrolled down to the headline of the chosen year.
+                    The menu also has four different check boxes for different types of publications;
+                    scientific articles, books, book chapters and reports. When checked the text will appear darker.
+                    The contents meny will be locked in position when scrolling further down the page so that
+                    users at any time can manouver through the different years of publication and types of content.
+                  </p>
+                  </li>
+                <!-- Events -->
+                <li>events.html
+                  <p> The "event" page will showcase all the events held by the center. Under the header on the right side, there will be a list of all the upcoming events, categorized in which month they will happen.
+                  Each event will have its own box, containing a picture, a description, time, place, type of event and person in charge of the event.
+                  The month is a drop down-bar, so if you click on the drop-down arrow icon, the events from the following month will not show.
+                  This way you can easily access events whitch will occur in other months than the current. There is also a filter function on the left side of the page, where the events can be filtered depending on the type of event(seminar, conference, etc.) and month. </p>
+                  <img class="mockup" alt="events mockup" src="./img/Eventspage.jpg">
+                  <p> Underneath, there is also a link to previous events. This page will be quite similar as the main event page, but all the drop downs from the monts will be up, as there will be a lot more months to choose from.
+                  There will also be a search bar here, and a filter function. </p>
+                  <img class="mockup" alt="prevevents mockup" src="./img/Previousevents.jpg"/>
+                  <p> When clicking on a specific event, one will be redirected to the corresponding page of that event. There will be a picture at the top left, and a header with the title of the event. Under the header there will be information about time, place, type of event and perosn in charge.
+                  Under the practical information, there will be more detailed information about the event, on the right side. On the left side there will be a "Facts" section describing what type of event it is. </p>
+                  <img class="mockup" alt="spesevents mockup" src="./img/Specificevent.jpg"/>
+                  </li>
+                <!-- News -->
+                <li>news.html
+                  <p> The news-page will showcase the centres newsfeed, divided into months and years.
+                    “News” includes everything with mentioning at the centre; visits, events, publications etc.
+                    Each of the articles will have a tag to describe what kind of “news” it is.
+                    It will be possible to filter the news based on the aforementioned tags.
+                    Below the header there will be a search field where it is possible to search for specific news</p>
+                  <img class="mockup" alt="news mockup" src="./img/News.jpg"/>
+                  <p>The news are presented as boxes on the right site, containing a picture, title, tag, publication date and a short synopsis.
+                    Each of the month-branches can be collapsed to easier navigate the news-feed.
+                    When you click on an article, you will be taken to the relevant page.</p>
+                  <p>Right below the search field at the top, there are links to the publications- and events-site for easy access to the most relevant pages regarding the news feed.</p>
+                </li>
+                <!-- Contact -->
+                <li>contact.html
+                  <img class="mockup" alt="contact 1 mockup" src="./img/Contact1.jpg"/>
+                  <p>The contact page includes more detailed contact information for the centre than the footer. On the left side there will be clickable symbols to the centres social media profiles. In the middle there will be a form for contacting the centre instantly, and on the left there will be a map showing the centres location as well as their street- and post adresses. The visiting adresses and map will link to google maps so users can obtain easy directions. </p>
+                  <p>The profiles of the three top executives will be displayed below the contact form - linking to their profile pages for detailed contact info. The footer on this page will only contain the logo. </p>
+                </li>
+              </ol>
+          </div>
+
+<!-- Minimum requirements-->
+  <div class="box">
+    <h2>7. Minimum requirements</h2>
+    <p>We plan to fulfil the minimum requirments of Javascript applications in this way:</p>
+    <ul class="java">
+      <li> <b>1.<i>domino.js:</i></b> Kristin will be in charge of implementing a Javascript function that will make the
+    pictures on the homepage and people page appear one after another when first entering the pages
+    This will make the otherwise static page a bit more dynamic.</li>
+    <li><b>2.<i>newsscrolling.js:</i></b> Emil will be in charge of implementing a Javascript funciton that will make the
+    news articles on the homepage scrollable horisontally. This is to allow the viewer to check out more news.</li>
+    <li><b>3.<i>filter.js:</i></b> Oda will be in charge of implementing a Javascript function that will filter viewable content on the publication page, news page and the events page.
+      This is a function that will allow the user to filter the information they would like to see themselves, so they dont have to scroll trough exessive information. </li>
+    <li><b>4.<i>table.js:</i></b>
+      Kari will be in charge of implementing a Javascript funciton on the profile page that allows the user to choose between different categories in a table that shows different types of publications.</li></ul>
+
+    <p> We might also add more javscript functions later if we find it suitable.<p>
+    </div>
+
+<!-- Plan -->
+
+    <div class="box">
+      <h2>8. Plan</h2>
+      <h4>Organizational Scheme</h4>
+      <p>The following files will be gathered inside a folder in our GitHub, and they will be created in the coding phase, P3.</p>
+      <p>List of Files and Folders</p>
+      <ul id="filesandfolders">
+        <li>homepage.html</li>
+        <li>about.html</li>
+        <li>people.html</li>
+        <li>profilepage.html</li>
+        <li>publications.html</li>
+        <li>events.html</li>
+        <li>news.html</li>
+        <li class="sublistparent"> Modularity/
+          <ul class="sublist">
+            <li>menu.html</li>
+            <li>footer.html</li>
+        </ul>
+        </li>
+        <li class="sublistparent"> Images/
+            <ul class="sublist">
+              <li>logo_CeFH.png</li>
+              <li>sfflogo.png</li>
+              <li>profilepic1.png</li>
+              <li>.....</li>
+              <li>profilepic40.png</li>
+              <li>NCoE.png</li>
+              <li>map.jpg</li>
+              <li>articlepicture1.jpg</li>
+              <li>......</li>
+              <li>articlepicture30.jpg</li>
+            </ul>
+        </li>
+        <li class="sublistparent"> CSS/
+          <ul class="sublist">
+            <li>styling.css</li>
+            <li>homepage.css</li>
+            <li>about.css</li>
+            <li>people.css</li>
+            <li>profilepage.css</li>
+            <li>publications.css</li>
+            <li>events.css</li>
+            <li>news.css</li>
+          </ul>
+        </li>
+        <li class="sublistparent"> Scripts/
+          <ul class="sublist">
+            <li>domino.js</li>
+            <li>newsscrolling.js</li>
+            <li>filter.js</li>
+            <li>table.js</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>What we need from our client:</p>
+      <ul>
+        <li>contextual content for all the pages</li>
+        <li>images of all employees</li>
+        <li>logos for CEFH and SFF</li>
+        <li>pictures for news articles and events</li>
+        <li>annual report pdf</li>
+        <li>CV for all employees (if we have time to make profile pages)</li>
+      </ul>
+
+      <h4>Work Division and Deadlines</h4>
+      <table>
+          <tr>
+            <th>Filename</th>
+            <th>Description</th>
+            <th>In charge</th>
+            <th>Deadline</th>
+          </tr>
+          <tr>
+            <td>homepage.html</td>
+            <td>The homepage</td>
+            <td>Rikke</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>about.html</td>
+            <td>Some information about CEFH and their research</td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>people.html</td>
+            <td>People working at CEFH</td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>publications.html</td>
+            <td>The A list of CEFH publications</td>
+            <td>Kari</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>events.html</td>
+            <td>Upcoming and previous evets</td>
+            <td>Oda</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>news.html</td>
+            <td>A collection of recent happenings/ publiations etc.</td>
+            <td>Emil</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>contact.html</td>
+            <td>Centre contact info</td>
+            <td>Emil</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>menu.html</td>
+            <td>Navigation bar at the top of the page</td>
+            <td>All</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>footer.html</td>
+            <td>Contact info etc.</td>
+            <td>All</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>profilepage.html</td>
+            <td>All info about one employee at CEFH</td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>eventpage.html</td>
+            <td>All info about one event</td>
+            <td>Oda</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>styling.css</td>
+            <td>General styling for all pages</td>
+            <td>All</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>homepage.css</td>
+            <td>Styling for the homepage</td>
+            <td>Rikke</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>about.css</td>
+            <td>Styling for the about page</td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>people.css</td>
+            <td>Styling for the people page</td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>profilepage.css</td>
+            <td>Styling for profile page</td>
+            <td>Rikke</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>publications.css</td>
+            <td>Styling for the publications page</td>
+            <td>Kari</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>events.css</td>
+            <td>Styling for the events page</td>
+            <td>Oda</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>news.css</td>
+            <td>Styling for the news page</td>
+            <td>Emil</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>domino.js</td>
+            <td>Fading in one picture at a time </td>
+            <td>Kristin</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>newsscrolling.js</td>
+            <td>Scrolling horisontaly through resent news</td>
+            <td>Emil</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>filter.js</td>
+            <td>Filter content showing on the page</td>
+            <td>Oda</td>
+            <th>06.11.2019</th>
+          </tr>
+          <tr>
+            <td>table.js</td>
+            <td>Choose content based on different categories</td>
+            <td>Kari</td>
+            <th>06.11.2019</th>
+          </tr>
+        </table>
+    </div>
+  <footer>Made by: Emil Brevik, Oda Hansen, Kari Stam, Rikke Skindlo and Kristin Håberg</footer>
+  </div>
+</body>
+</html>
