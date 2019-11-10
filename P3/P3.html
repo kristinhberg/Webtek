@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="P2.css">
+  <Title>P3 Design changes</Title>
+</head>
+
+<body>
+  <div class="body">
+    <h1>P3 Design changes</h1>
+
+<!-- Document Details -->
+
+    <div class="box">
+      <h2>1. Document Details</h2>
+        <ul>
+          <li>P2 Design Guidelines</li>
+          <li>Kristin, Emil, Oda, Kari, Rikke</li>
+          <li>IT2805 November 2019</li>
+        </ul>
+    </div>
+
+<!-- Administrative Details -->
+
+    <div class="box">
+      <h2>2. Administrative Details</h2>
+        <ul>
+          <li>Client name: CEFH - Center for Fertility and Health</li>
+          <li>Website name: CEFH.no</li>
+          <li>Contact person: Siri Eldevik Håberg, Deputy Director </li>
+          <li>Link to our website <a href="http://folk.ntnu.no/krishaab/CEFH/" target="blank">here</a></li>
+
+        </ul>
+    </div>
+
+<!-- Changes -->
+
+    <div class="box">
+      <h2>3. The Changes We Have Made</h2>
+        <p>
+          Originally we had planned to create 9 pages to the site, but as our student assistant thought this
+          was a bit to big for the scope for this project we decided to drop the three following pages and their
+          associated CSS files:
+        </p>
+          <ul>
+            <li>contact.html</li>
+            <li>contact.css</li>
+            <li>profilepage.html</li>
+            <li>profilepage.css</li>
+            <li>eventpage.html</li>
+            <li>eventpage.css</li>
+          </ul>
+        <p>
+          We decided to cut these pages because they were the least important.
+          Instead of having a separate page for contac information we decided to put all contact info in the footer.
+          In addition, contact information for each person is in the people page (and going to be on the profilepage).
+        </p>
+        <p>
+          We also decided that we did not have time to make a profilepage for a single person. This is because the content
+          of this page would be hard to attain for us, as our client wanted to have the CV, info and all publications
+          for each peroson on their site. The people.html page shows an overview of each person, and each person was intended
+          to work as a link to our profilepages, but instead we have now linked them to the profilepages on the centres
+          existing site.
+        </p>
+        <p>
+          The eventpages were also cut due to the same reason as the profilepage. This was intended to be pages with
+          information about every single event. We decided that these pages weren´t that important to our project
+          as of now, so therefore we did not make these.
+          <br>
+          <br>
+          In addition to not making these three pages we also made a few changes to some of the other pages:
+        </p>
+          <ul>
+            <li><b>homepage.html</b>
+              <p>
+                Firstly, we renamed the homepage.html to index.html, so that this is set as the homepage on our folk.ntnu webserver.
+                In addition we decided to not go through with one of the javascript functions: the scroll.js. This function was to enable horisontal scrolling on the news articles.
+                Instead we just made the four most recent news articles to be displayed constantly.
+                <br>
+                We also changed the domino.js to not to work on the news article pictures, but instead the recent publications. This was purely for aesthetic reasons.
+                <br>
+                After talking with our client, we also made changes after their wish so that all parts of the homepage content; news articles, events and publications,
+                will work as links to each associated page. When you hover over each of these divs, it scales up by 10%.
+                <br>
+                In addition, we also added a view more-button under the upcoming events part of the homepage,
+                this was after the wish of our client.
+              </p>
+            </li>
+            <li><b>people.html</b>
+              <p>
+                The content ontent 250x176px
+                The pictures have changed sizing to: 164x218 px.
+              </p>
+            </li>
+            <li>events.html
+              <p>
+                Through the use of Javascript, a number of functions will be added to the homepage. One function will enable horisontal scrolling on the news articles. Another will make the pictures appear one after another when first entering the page. The third will make it so that boxes also works as links. This will work when you hover over the box, scaling it up by approximately 10%.
+              </p>
+            </li>
+            <li>homepage.html
+              <p>
+                Through the use of Javascript, a number of functions will be added to the homepage. One function will enable horisontal scrolling on the news articles. Another will make the pictures appear one after another when first entering the page. The third will make it so that boxes also works as links. This will work when you hover over the box, scaling it up by approximately 10%.
+              </p>
+            </li>
+            <li><b>CSS Styling</b>
+              <p>
+                In terms of changes to intended CSS styling, we have pretty much sticked to our P2 delivery, with a couple of exceptions: 
+              </p>
+                <ul>
+                  <li> When the browser width is under 960px, the navbar turns in to a hamburger menu. In addition, the CeFH-logo text disappears, only leaving the CeFH-icon.</li>
+                  <li> We have removed the green line from the footer.</li>
+                   <li>Some of the fonts have been adjusted in size.</li>
+                </ul>
+            </li>
+    </div>
+
+
+<!-- Updated plan -->
+
+    <div class="box">
+      <h2>4. Updated Organizational Scheme</h2>
+      <p>The following files will be gathered inside a folder in our GitHub</p>
+      <p>Final List of Files and Folders</p>
+      <ul id="filesandfolders">
+        <li>index.html</li>
+        <li>about.html</li>
+        <li>people.html</li>
+        <li>publications.html</li>
+        <li>events.html</li>
+        <li>news.html</li>
+        <li class="sublistparent"> Images/
+            <ul class="sublist">
+              <li>logo_CeFH.png</li>
+              <li>logo.png</li>
+              <li>logo_text.png</li>
+              <li>søk.png</li>
+              <li>sfflogograaEng.png</li>
+              <li>greenLine.png</li>
+              <li>labelicon.png</li>
+              <li>fredrik-swift.jpeg</li>
+              <li>oystein-kravdal.jpeg</li>
+              <li>per-minor-magnus.jpeg</li>
+              <li>hakon-gjessing.jpeg</li>
+              <li>siri-eldevik-haberg.jpeg</li>
+              <li>vegard-fykse-skirbekk.jpeg</li>
+              <li>norbis.jpeg</li>
+              <li>liten-gutt-spiser.jpeg</li>
+              <li>gemma_sharp.jpeg</li>
+              <li>gro-brundtland-portrait.jpeg</li>
+              <li>recriuting.jpeg</li>
+              <li>stillpic.jpg</li>
+              <li>hamburger.svg</li>
+              <li>label.svg</li>
+              <li>place.svg</li>
+              <li>time.svg</li>
+              <li>upevPic.svg</li>
+            </ul>
+        </li>
+        <li class="sublistparent"> CSS/
+          <ul class="sublist">
+            <li>styling.css</li>
+            <li>homepage.css</li>
+            <li>about.css</li>
+            <li>people.css</li>
+            <li>publications.css</li>
+            <li>events.css</li>
+            <li>news.css</li>
+            <li>header+footer.css</li>
+          </ul>
+        </li>
+        <li class="sublistparent"> Scripts/
+          <ul class="sublist">
+            <li>domino.js</li>
+            <li>collapsible.js</li>
+            <li>dropdownevents.js</li>
+            <li>table.js</li>
+            <li>header+footer.js</li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <h4>Final Work Division</h4>
+      <table>
+          <tr>
+            <th>Filename</th>
+            <th>Description</th>
+            <th>In charge</th>
+          </tr>
+          <tr>
+            <td>index.html</td>
+            <td>The homepage</td>
+            <td>Rikke</td>
+          </tr>
+          <tr>
+            <td>about.html</td>
+            <td>Some information about CEFH and their research</td>
+            <td>Kristin</td>
+          </tr>
+          <tr>
+            <td>people.html</td>
+            <td>People working at CEFH</td>
+            <td>Kristin</td>
+          </tr>
+          <tr>
+            <td>publications.html</td>
+            <td>List of CEFH publications</td>
+            <td>Kari</td>
+          </tr>
+          <tr>
+            <td>events.html</td>
+            <td>Upcoming and previous evets</td>
+            <td>Oda</td>
+          </tr>
+          <tr>
+            <td>news.html</td>
+            <td>A collection of recent happenings/ publiations etc.</td>
+            <td>Emil</td>
+          </tr>
+          <tr>
+            <td>styling.css</td>
+            <td>General styling for all pages</td>
+            <td>All</td>
+          </tr>
+          <tr>
+            <td>homepage.css</td>
+            <td>Styling for the homepage</td>
+            <td>Rikke and Kristin</td>
+          </tr>
+          <tr>
+            <td>people.css</td>
+            <td>Styling for the people page</td>
+            <td>Kristin</td>
+          </tr>
+          <tr>
+            <td>publications.css</td>
+            <td>Styling for the publications page</td>
+            <td>Kari</td>
+          </tr>
+          <tr>
+            <td>events.css</td>
+            <td>Styling for the events page</td>
+            <td>Oda</td>
+          </tr>
+          <tr>
+            <td>news.css</td>
+            <td>Styling for the news page</td>
+            <td>Emil</td>
+          </tr>
+          <tr>
+            <td>header+footer.css</td>
+            <td>Styling for the header and fotter of each page</td>
+            <td>Kristin and Kari</td>
+          </tr>
+          <tr>
+            <td>domino.js</td>
+            <td>Fading in one picture at a time using javascript and css keyframes</td>
+            <td>Kristin</td>
+          </tr>
+          <tr>
+            <td>search.js</td>
+            <td>Console logging and reseting a search input from the page search field</td>
+            <td>Kari</td>
+          </tr>
+          <tr>
+            <td>collapsible.js</td>
+            <td>Hide and show content on clicking top bar</td>
+            <td>Emil</td>
+          </tr>
+          <tr>
+            <td>table.js</td>
+            <td>Choose content based on different categories</td>
+            <td>Kari</td>
+          </tr>
+          <tr>
+            <td>header+footer.js</td>
+            <td>Create header and footer on all pages for modularity</td>
+            <td>Kristin and Kari</td>
+          </tr>
+          <tr>
+            <td>responsivenavbar.js</td>
+            <td>Making nav bar responsive using media query and javascript</td>
+            <td>Kristin</td>
+          </tr>
+          <tr>
+            <td>General design</td>
+            <td>The general design, including colors, buttons, fonts etc.</td>
+            <td>All</td>
+          </tr>
+        </table>
+    </div>
+  <footer>Made by: Emil Brevik, Oda Hansen, Kari Stam, Rikke Skindlo and Kristin Håberg</footer>
+  </div>
+</body>
+</html>
