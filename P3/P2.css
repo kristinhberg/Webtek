@@ -1,0 +1,73 @@
+html,body{
+  font-family: Arial, sans-serif;
+  color: #4F4F4F;
+  background-color: whiteSmoke;
+  height:100%;
+}
+
+.body{
+  width: 100ch;
+  margin:auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+
+.mockup{
+  width: 650px;
+  margin: 50px;
+  border: 2px solid darkgrey;
+  display: block;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #E8E8E8;
+}
+.java li{
+  margin-bottom: 10px;
+}
+
+.forside{
+  background: url('../img/cefh_header.jpg')no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  display: inline-block;
+  height: 280px;
+}
+
+
+.box{
+  font-size: 18px;
+  margin-top: 3em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.sublistparent {
+  list-style-type: disc;
+}
+
+.sublist li{
+  list-style-type: circle;
+}
